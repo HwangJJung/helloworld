@@ -2,7 +2,7 @@
 
 all: server client
 
-CFLAGS = -g
+CFLAGS = -W -Wall  -g
 
 server : server.c
 client : client.c
